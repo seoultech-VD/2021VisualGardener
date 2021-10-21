@@ -30,8 +30,7 @@ section .main{
 	width: 100%;
 	height: 100vh;
 	position: relative;
-	background-image: url( "grid.png"); ;
-	}
+	background-image: url( "grid.png"); ;}
 
 section .back{position: absolute; 
 	width: calc(1920/1920*100%);
@@ -39,121 +38,99 @@ section .back{position: absolute;
 	z-index:1;}
 
 
-	section .mono{
-		position: absolute;
-		z-index: 2;
-	}
-	section .color{
-		position: absolute;
-		z-index: 99;
-		opacity: 0;
-	}
-	section .color:hover{
-		opacity: 1;
-		transition-duration: 0.5s;
-	}
-	section .plant1{
-		width: calc(400/1920*100%);
-		left: calc(583/1920*100%);
-		top: calc(2/1080*100%);
-		transform: rotate(10deg);
-	}
-	section .plant2{
-		width: calc(550/1920*100%);
-		left: calc(990/1920*100%);
-		top: calc(150/1080*100%);
-		transform: rotate(20deg);
-	}
-	section .plant3{
-		width: calc(450/1920*100%);
-		left: calc(100/1920*100%);
-		top: calc(80/1080*100%);
-		transform: rotate(0deg);
-	}
-	section .plant4{
-		width: calc(334/1920*100%);
-		left: calc(1530/1920*100%);
-		top: calc(41/1080*100%);
-		transform: rotate(-30deg);
-	}
-	section .plant5{
-		width: calc(684/1920*100%);
-		left: calc(750/1920*100%);
-		top: calc(511/1080*100%);
-		transform: rotate(-10deg);
-	}
-	section .plant6{
-		width: calc(380/1920*100%);
-		left: calc(100/1920*100%);
-		top: calc(540/1080*100%);
-		transform: rotate(-5deg);
-	}
-	section .title{
-		position: fixed;
-		width: calc(441/1920*100%);
-		left: calc(21/1920*100%);
-		top: calc(21/1080*100%);
-		z-index: -4;
-	}
-	section .summary{
-		z-index: 999;
-		width: 1000px;
-		height: 200vh;
-		margin: auto;
-		padding: 0;
-		background: gray;
-	}
-	section .maintitle{
-			
-		z-index: -4;display: block; margin-top:80px; position: relative;
-		text-align: center; font-size: 23pt; line-height: 30pt; font-weight: 600; 
-		color: #55C6FF;}
+section .mono{
+	position: absolute;
+	z-index: 2;}
+section .color{
+	position: absolute;
+	z-index: 99;
+	opacity: 0;}
+section .color:hover{
+	opacity: 1;
+	transition-duration: 0.5s;}
+section .plant1{
+	width: calc(400/1920*100%);
+	left: calc(583/1920*100%);
+	top: calc(2/1080*100%);
+	transform: rotate(10deg);}
+section .plant2{
+	width: calc(550/1920*100%);
+	left: calc(990/1920*100%);
+	top: calc(150/1080*100%);
+	transform: rotate(20deg);}
+section .plant3{
+	width: calc(450/1920*100%);
+	left: calc(100/1920*100%);
+	top: calc(80/1080*100%);
+	transform: rotate(0deg);}
+section .plant4{
+	width: calc(334/1920*100%);
+	left: calc(1530/1920*100%);
+	top: calc(41/1080*100%);
+	transform: rotate(-30deg);}
+section .plant5{
+	width: calc(684/1920*100%);
+	left: calc(750/1920*100%);
+	top: calc(511/1080*100%);
+	transform: rotate(-10deg);}
+section .plant6{
+	width: calc(380/1920*100%);
+	left: calc(100/1920*100%);
+	top: calc(540/1080*100%);
+	transform: rotate(-5deg);}
+section .title{
+	position: fixed;
+	width: calc(441/1920*100%);
+	left: calc(21/1920*100%);
+	top: calc(21/1080*100%);
+	z-index: -4;}
+section .summary{
+	z-index: 999;
+	width: 1000px;
+	height: 200vh;
+	margin: auto;
+	padding: 0;
+	background: gray;}
+section .maintitle{	
+	z-index: -4;display: block; margin-top:80px; position: relative;
+	text-align: center; font-size: 23pt; line-height: 30pt; font-weight: 600; 
+	color: #55C6FF;}
+section .vg{
+	margin-top: 120px;
+	width: 1000px; 
+	margin-bottom: 100px;}
+section .video{width: calc(1000/1920*100%);}
+section .about{width: calc(850/1920*100%);	
+	margin-top:100px; margin-bottom:150px;
+	z-index: -4;display: block; position: relative;
+	text-align: center; font-size: 14pt; line-height: 25pt; font-weight: 500; 
+	color: white;}
 
-	section .vg{
-		margin-top: 120px;
-		width: 1000px; 
-		margin-bottom: 100px;}
+section .line{width: 1000px; margin-bottom: 50px;}
 
-	section .video{width: calc(1000/1920*100%);}
-
-	section .about{width: calc(850/1920*100%);	
-		margin-top:100px; margin-bottom:150px;
-		z-index: -4;display: block; position: relative;
-		text-align: center; font-size: 14pt; line-height: 25pt; font-weight: 500; 
-		color: white;}
-
-	section .line{width: 1000px; margin-bottom: 50px;}
-
-	section .listtitle{width: calc(900/1920*100%);	
-		margin-top:150px; margin-bottom:50px;
-		z-index: -4;display: block; position: relative;
-		text-align: center; font-size: 14pt; line-height: 25pt; font-weight: 500; 
-		color: white;
-
-	}
-
-	section .listname{
-		margin-top:100px; margin-bottom:50px;
-		z-index: -4;display: block; position: relative;
-		text-align: center; font-size: 14pt; line-height: 30pt; font-weight: 500; 
-		color: white;}
-
-	section .row{display: flex; margin: auto; width:calc(550/1920*100%);
-			flex-direction: row; justify-content: center;}
-
-	section .row6{display: flex; margin: auto; width:calc(1000/1920*100%);
-			flex-direction: row; justify-content: center;}
-
-	section .col-4{margin: 0 10px; }
-
-	section .col-6{margin: 0 30px; }
-
-	section .blue{color: #55C6FF;}
+section .listtitle{width: calc(900/1920*100%);	
+	margin-top:150px; margin-bottom:50px;
+	z-index: -4;display: block; position: relative;
+	text-align: center; font-size: 14pt; line-height: 25pt; font-weight: 500; 
+	color: white;}
+section .listname{
+	margin-top:100px; margin-bottom:50px;
+	z-index: -4;display: block; position: relative;
+	text-align: center; font-size: 14pt; line-height: 30pt; font-weight: 500; 
+	color: white;}
+section .row{display: flex; margin: auto; width:calc(550/1920*100%);
+	flex-direction: row; justify-content: center;}
+section .row6{display: flex; margin: auto; width:calc(1000/1920*100%);
+	flex-direction: row; justify-content: center;}
+section .col-4{margin: 0 10px; }
+section .col-6{margin: 0 30px; }
+section .blue{color: #55C6FF;}
 
 
 
 /* 썸네일페이지용 */
-main .gtrack {background:black; display:flex; justify-content: space-between; font-size: 14px; line-height: 44px; padding: 0; position: sticky; top: 44px; z-index: 9999; margin-top: 500px;}
+main .gtrack {background:black; display:flex; justify-content: space-between; font-size: 14px; line-height: 44px; padding: 0;
+	position: sticky; top: 44px; z-index: 9999; margin-top: 500px;}
 main .track{margin: 80px 0px;}
 main .track h1 {color: white; font-size: 26px; font-weight: 500;text-align: center; margin-bottom: 10px;}
 main .track p {color: #06afe7; font-weight: 400 ;text-align: center; font-size: 1rem}
@@ -170,7 +147,9 @@ main .thumb .border{border: 1px solid #DDD; box-sizing: border-box;}
 main figure:hover figcaption{opacity:0.95; transform: translate(0px, 0px);}
 main figure:hover img{-webkit-filter:brightness(35%); -moz-filter:brightness(35%); -o-filter:brightness(35%); -ms-filter:brightness(35%); filter:brightness(35%); transition: all .5s cubic-bezier(0.4, 0.01, 0.165, 0.99);}
 
-	#toTop {font-family:'roboto'; font-weight:700; display: none; position: fixed; bottom: 50px; right: 50px; z-index: 1; border: none; outline: none; background-color: #222; color: white; cursor: pointer; width:63px; height:60px; border-radius: 50%; box-shadow: 0px 0px 5px #bbb;}
+	#toTop {font-family:'roboto'; font-weight:700; display: none; position: fixed; bottom: 50px; right: 50px;
+		z-index: 1; border: none; outline: none; background-color: #222; color: white; cursor: pointer; width:63px;
+		height:60px; border-radius: 50%; box-shadow: 0px 0px 5px #bbb;}
 	#toTop:hover {background-color: #bbb;}
 
 
