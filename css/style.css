@@ -29,12 +29,7 @@ nav .mnav a{line-height: 2.3;}
 body{
 	width: 100vw;}
 
-section .main{
-	width: 100%;
-	height: 100vh;
-	position: relative;
-	background-image: url( "grid.png"); ;}
-
+section .main{ width: 100%; height: 100vh; position: relative; background-image: url( "grid.png"); ;}
 section .back{position: absolute; 
 	width: calc(1920/1920*100%);
 	top: calc(-200/1080*100%);
@@ -166,20 +161,7 @@ article .memberlink{display: flex; gap: 5vh 5%;flex-wrap: wrap;}
 article .memberlink li{width: 21.25%}
 
 /* 학생페이지 */
-	section .gardener a{text-decoration: none; color: #a8a8a8;}
-	section .gardener .menu {background:black; color: #fff; font-weight: 400; list-style: none; width: 100%; color: #fff; border-bottom: solid 1px; margin-top: 230px;
-			display:flex; justify-content: space-between; font-size: 16px; line-height: 44px; padding: 0; top: 230px; z-index: 9999;}
-	section .gardener .name{color:  #fff; display: inline-block;
-			font-size: 12pt; margin-top: 30px; margin-bottom: 104px;}
-	section .gardener .ppage{color: #a8a8a8; font-weight: 500;
-			font-size: 10pt; margin-bottom: 6px;}
-	section .gardener .email{color: #ddd; display: inline-block; font-weight: 700;
-			font-size: 10pt; margin-top: 0; margin-bottom: 35px;}
-	section .gardener .pro{width: 580px;}
-	section .gardener .wor{width: 420px;}
-	section .gardener .stu{height: 270px;}
-	section .gardener .thumb{float: right; margin-top: 35px; line-height: 270px;}
-	section .gardener .thumb img{margin-left: 20px;}
+
 
 /* Footer */
 footer{ margin-top: 300px; font-size: 10pt; text-decoration: none; color: #BDBDBD; margin-bottom: 50px; display: flex;}
