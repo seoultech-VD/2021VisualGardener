@@ -29,7 +29,7 @@ nav .mnav a{line-height: 2.3;}
 body{
 	width: 100vw;}
 
-section .main{ width: 100%; height: 100vh; position: relative; background-image: url( "grid.png"); ;}
+section .main{ width: 100vw; height: 100vh; position: relative; background-image: url( "grid.png"); ;}
 section .back{position: absolute; 
 	width: calc(1920/1920*100%);
 	top: calc(-200/1080*100%);
