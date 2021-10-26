@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>project_detail</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style1.css">
 </head>
 <style type="text/css">
 	@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
@@ -19,13 +19,18 @@
 	.logo{
 		margin: 0;
 	}
+	.mainani{ animation: mainimg 3s alternate forwards;animation-timing-function: ease-in; }
+	@keyframes mainimg {
+		0%{opacity: 0; }
+		20%{opacity: 1;}
+		100%{ filter:brightness(50%); }
+		
+	}
 
 
 </style>
 <body>
 	
-	<section class="maintitle">서울과학기술대학교 조형대학 디자인학과<br>시각디자인 프로그램 제39회 졸업전시회</section>
-
 	<section class="main">
 		<img src="./main/grid.png" class="back">
 		<img src="./main/plant1_mono.png" class="mono plant1">
@@ -47,7 +52,12 @@
 		<img src="./main/plant6_mono.png" class="mono plant6">
 		<a href=""><img src="./main/plant6.png" class="color plant6"></a>		
 	</section>
-<nav>
+
+	<section class="maintitle">서울과학기술대학교 조형대학 디자인학과<br>시각디자인 프로그램 제39회 졸업전시회</section>
+
+	<header>
+		<div class="backdrop"></div>
+		<nav>
 		<ul class="gnav">
 			<a href="main.html" class="logo">VISUAL GARDENER</a>
 			<div>
@@ -56,6 +66,7 @@
 			</div>
 		</ul>
 	</nav>
+	</header>
 	<section><img  src="./main/bigtitle.png" class="vg"></section>
 
 
@@ -146,7 +157,8 @@
 			<p>© 2021 SEOULTECH Visual Design Graduation Exhibition</p>
 		</div>
 		<div class="gfooter">
-			<a href="https://www.instagram.com/snad_vd/" class="color">@snad_vd</a>
+			<a href="https://www.instagram.com/snad_vd/">@snad_vd</a>
+			<!-- 여기 클래스 color말고 다른걸로 지정 컬러는 메인이미지6개에만-->
 		</div>
 		<div>
 			<a href="https://www.seoultech.ac.kr/univ/univ/mol/intro/">서울과학기술대학교 조형대학 시각디자인학과</a>
@@ -154,5 +166,28 @@
 		</div>
 			
 	</footer>
+
+	<script type="text/javascript">
+		var t = document.getElementsByClassName("color");
+		console.log(t);
+		var count = 0 ;
+		mainAni(count);
+		function mainAni(num){
+			t[num].classList.add("mainani");
+			t[num].onanimationend = function(){
+				this.classList.remove("mainani");
+				if(count == 5){ count = 0;}
+				else{ count++;}
+				mainAni(count)
+			}	
+		}
+			
+		function restartAnimation(obj,aclass){
+			obj.classList.remove(aclass);
+			setTimeout(function(){ t.classList.add(aclass); t.style.animationPlayState = "paused"; },100);
+		}
+		
+
+	</script>
 </body>
 </html>

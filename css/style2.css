@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap');
+html {font-size: 16px;font-family: 'Noto Sans KR', sans-serif; color:white; box-sizing: border-box; word-break: keep-all; background: black}
+::selection {color:#eee; background:#333;}
+
+body,a,h1,p,ul,h1,figure,figcaption{margin: 0; padding: 0}
+a{display: block;text-decoration:none; color: white}
+ul {list-style-type:none;}
+header{height: 46px; position: fixed; top: 0;left: 0; width: 100%;z-index: 9999;}
+header .backdrop{height: 46px; background: black; opacity: 1;
+				position: absolute; width: 100vw;
+				backdrop-filter: blur(10px)}
+
+
+/*데스크탑 전체폭설정*/
+main,nav,section,article,footer {width: 1000px; margin: auto; position: relative;}
+
+/*메뉴*/
+nav{}
+nav	.logo{font-size: 1rem;font-weight: bold;line-height: 44px; color: white;}
+nav	.gnav{width: 1000px; z-index: 9999; height: 50px;  display: flex; justify-content: space-between; align-items: center; position: fixed; top: 0; line-height: 50px;}
+nav .gnav div{display: flex;}
+nav	.gnav div a{color: white; text-decoration: none; text-align: center; padding: 0 10px;}
+nav	.gnav div a:hover{background: linear-gradient(#06afe7, 85%, black); color: black;}
+nav	.mnav{background: white;padding: 2rem 0 1rem 30%;opacity: 0.7;backdrop-filter: blur(10px);display: none;}
+nav .mnav a{line-height: 2.3;}
+
+/* 썸네일페이지용 */
+main .gtrack {background:black; display:flex; justify-content: space-between; font-size: 14px; line-height: 44px; padding: 0; position: sticky; top: 44px; z-index: 9999; margin-top: 500px;}
+main .track{margin: 80px 0px;}
+main .track h1 {color: white; font-size: 26px; font-weight: 500;text-align: center; margin-bottom: 10px;}
+main .track p {color: #06afe7; font-weight: 400 ;text-align: center; font-size: 1rem}
+main .thumb p {color: #868686; font-size:14px;}
+main .track img {display: block; width: 1500px; position:absolute; top: -430px;left: -250px;}
+main .trackline {width: 100%; color: #06afe7; border: solid 1px;}
+main .gtrack a:hover{color: #06afe7;text-decoration:underline}
+main .choice {color: #06afe7}
+main .thumbList{ display: flex; flex-wrap: wrap; gap: 5vh 5%; margin-top: 70px;}
+main .thumb {width:30%; }
+main .thumb figure{position:relative;}
+main .thumb img{width: 100%}
+main .thumb .border{border: 1px solid #DDD; box-sizing: border-box;}
+main figure:hover figcaption{opacity:0.95; transform: translate(0px, 0px);}
+main figure:hover img{-webkit-filter:brightness(35%); -moz-filter:brightness(35%); -o-filter:brightness(35%); -ms-filter:brightness(35%); filter:brightness(35%); transition: all .5s cubic-bezier(0.4, 0.01, 0.165, 0.99);}
+
+	#toTop {font-family:'roboto'; font-weight:700; display: none; position: fixed; bottom: 50px; right: 50px; z-index: 1; border: none; outline: none; background-color: #222; color: white; cursor: pointer; width:63px; height:60px; border-radius: 50%; box-shadow: 0px 0px 5px #bbb;}
+	#toTop:hover {background-color: #bbb;}
+
+
+/* 개별작품페이지용*/
+article{ margin-top:100px; position: relative;}
+.work-text{display: flex; gap: 5%;margin-bottom: 100px;}
+.work-text .title{line-height: 1.1;font-weight:800; width: 30%;font-size:17px;font-size: 2.3rem;}
+.work-text .content{width: 60%;}
+.work-text .content p{line-height: 1.7;font-weight: ;}
+article img{ width:100%; margin-bottom:20px;}		
+article .memberlink{display: flex; gap: 5vh 5%;flex-wrap: wrap;}
+article .memberlink li{width: 21.25%}
+
+/* Footer */
+footer{ margin-top: 300px; font-size: 8pt; text-decoration: none; color: #BDBDBD; margin-bottom: 50px; display: flex;}
+footer .color{ color: #06afe7;}
+footer div{margin-right: 40px;}
+
+/* 모바일용 미디어쿼리 */
+@media only screen and (max-width: 767px){
+	html{letter-spacing: -0.3px;}
+	main,nav,section,article {width: 95%;}
+
+	nav .gnav{display: none;}
+	nav .mnav{}
+
+	header{height:30vh;}
+	main .thumb{width: 100%}
+
+	article .work-text{display: block;}
+	article .work-text .title{width: inherit;}
+	article .work-text .content{width: inherit;margin-top: 2rem;}
+	article .memberlink li{width: 47.5%}
+
+}
+
+
+
+
