@@ -34,13 +34,13 @@ article{ margin-top:100px; position: relative; color: white;}
 article img{ width: 100%; margin: 0; padding: 0; line-height: 0;}
 article .memberlink{display: flex; gap: 5vh 5%;flex-wrap: wrap;}
 article .memberlink li{width: 21.25%}
-article p::selection{background-color: #06afe7; color:black;}
+article p::selection{color: #06afe7;}
 
 /* Footer */
 footer{ margin-top: 300px; font-size: 10pt; text-decoration: none; color: #BDBDBD; margin-bottom: 50px; display: flex;}
 footer .color{ color: #06afe7;}
 footer div{margin-right: 40px;}
-footer p::selection{background-color: #06afe7; color:black;}
+footer p::selection{color: #06afe7;}
 
 /* 모바일용 미디어쿼리 */
 @media only screen and (max-width: 767px){
