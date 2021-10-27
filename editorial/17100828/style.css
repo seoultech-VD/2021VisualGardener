@@ -57,6 +57,9 @@ footer p::selection{color: #06afe7;}
 	article .memberlink li{width: 47.5%}
 	.work-text .text{margin-top: 20px;}
 
+	footer{display: block; margin:100px; }
+	footer div{margin: 20px 0px 30px 0px;}
+
 }
 
 
