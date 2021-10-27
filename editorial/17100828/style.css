@@ -24,7 +24,7 @@ nav	.gnav div a:hover{background: linear-gradient(#06afe7, 85%, black); color: b
 nav	.mnav{width:100vw; z-index: 9999; height 50px; background: black; position: fixed; top: 0; line-height: 50px; display: none;}
 nav	.mnav #myLinks{display: none;}
 nav	.mnav a{color: white; text-decoration: none; display: block; padding: 10px 10px;}
-nav 	.mnav a .icon{display: block; position: absolute; right:0; top:0;}
+.icon{display: block; position: absolute; right:0; top:0;}
 
 
 /* 개별작품페이지용*/
