@@ -55,10 +55,10 @@ footer p::selection{color: #06afe7;}
 	main .thumb{width: 100%}
 
 	article .work-text{display: block; width: 100vw;}
-	article .work-text .title{width: inherit;}
+	article .work-text .title{width: 100%}
 	article .work-text .content{width: inherit;margin-top: 2rem;}
 	article .memberlink li{width: 47.5%}
-	.work-text .text{margin-top: 20px;}
+	.work-text .text{margin-top: 20px; width: 100%;}
 
 	footer{width:100vw; display: block; margin:100px 0px 50px 10px; }
 	footer div{margin: 20px 0px 0px 10px;}
