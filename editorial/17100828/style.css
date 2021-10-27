@@ -21,9 +21,8 @@ nav	.gnav{width: 1000px; z-index: 9999; height: 50px; background: black; display
 nav 	.gnav div{display: flex;}
 nav	.gnav div a{color: white; text-decoration: none; text-align: center; padding: 0 10px;}
 nav	.gnav div a:hover{background: linear-gradient(#06afe7, 85%, black); color: black;}
-nav	.mnav{width:100vw; z-index: 9999; height 50px; background: black; display flex; justify-content: space-between; align-items: center; ;display: none; position: fixed; line-height: 50px;}
+nav	.mnav{width:100vw; z-index: 9999; height 50px; background: black; display flex; justify-content: space-between; align-items: center; position: fixed; top: 0; line-height: 50px; display: none;}
 
-/* 대문용 */
 
 /* 개별작품페이지용*/
 article{ margin-top:100px; position: relative; color: white;}
