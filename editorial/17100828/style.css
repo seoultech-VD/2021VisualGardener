@@ -60,8 +60,8 @@ footer p::selection{color: #06afe7;}
 	article .memberlink li{width: 47.5%}
 	.work-text .text{margin-top: 20px;}
 
-	footer{display: block; margin:100px 0px 20px 0px; }
-	footer div{margin: 20px 0px 0px 0px;}
+	footer{width:100vw; display: block; margin:100px 0px 20px 0px; }
+	footer div{margin: 20px 0px 0px 10px;}
 
 }
 
