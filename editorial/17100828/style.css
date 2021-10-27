@@ -56,6 +56,7 @@ footer p::selection{color: #06afe7;}
 	article .work-text .title{width: inherit;}
 	article .work-text .content{width: inherit;margin-top: 2rem;}
 	article .memberlink li{width: 47.5%}
+	.work-text .text{margin-top: 20px;}
 
 }
 
