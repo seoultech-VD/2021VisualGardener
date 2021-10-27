@@ -21,7 +21,7 @@ nav	.gnav{width: 1000px; z-index: 9999; height: 50px; background: black; display
 nav .gnav div{display: flex;}
 nav	.gnav div a{color: white; text-decoration: none; text-align: center; padding: 0 10px;}
 nav	.gnav div a:hover{background: linear-gradient(#06afe7, 85%, black); color: black;}
-nav	.mnav{background: white;padding: 2rem 0 1rem 30%;opacity: 0.7;backdrop-filter: blur(10px);display: none;}
+nav	.mnav{background: white;padding: 2rem 0 1rem 30%;opacity: 0.7;backdrop-filter: blur(10px);display: none; position: fixed;}
 nav .mnav a{line-height: 2.3;}
 
 /* 대문용 */
@@ -48,7 +48,7 @@ footer p::selection{color: #06afe7;}
 	main,nav,section,article {width: 95%;}
 
 	nav .gnav{display: none;}
-	nav .mnav{}
+	nav .mnav{display: block;}
 
 	header{height:30vh;}
 	main .thumb{width: 100%}
