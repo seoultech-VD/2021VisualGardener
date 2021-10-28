@@ -21,7 +21,7 @@ nav	.gnav{width: 1000px; z-index: 9999; height: 50px; background: black; display
 nav 	.gnav div{display: flex;}
 nav	.gnav div a{color: white; text-decoration: none; text-align: center; padding: 0 10px;}
 nav	.gnav div a:hover{background: linear-gradient(#06afe7, 85%, black); color: black;}
-nav	.mnav{width:100vw; z-index: 9999; height 50px; background: black; position: fixed; top: 0; line-height: 50px; display: none;}
+nav	.mnav{width:100vw; z-index: 9999; height 50px; background: black; position: fixed; top: 0; left:0; line-height: 50px; display: none;}
 nav	.mnav #myLinks{display: none;}
 nav	.mnav a{color: white; text-decoration: none; display: block; padding: 10px 10px;}
 .icon{display: block; position: absolute; right:0; top:0;}
@@ -54,13 +54,13 @@ footer p::selection{color: #06afe7;}
 	header{height:30vh;}
 	main .thumb{width: 100%}
 
-	article .work-text{display: block; width: 100vw;}
-	article .work-text .title{width: 100%}
+	article .work-text{display: block; width: 95vw;}
+	article .work-text .title{width: 95vw;}
 	article .work-text .content{width: inherit;margin-top: 2rem;}
 	article .memberlink li{width: 47.5%}
-	.work-text .text{margin-top: 20px; width: 100%;}
+	.work-text .text{margin-top: 20px; width: 95vw;}
 
-	footer{width:100vw; display: block; margin:100px 0px 50px 10px; }
+	footer{width:95vw; display: block; margin:100px 0px 50px 10px; }
 	footer div{margin: 20px 0px 0px 10px;}
 
 }
