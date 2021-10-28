@@ -18,12 +18,14 @@ main,nav,section,article,footer{width: 1000px; margin: auto; position: relative;
 /*메뉴*/
 nav{}
 nav	.logo{font-size: 1rem;font-weight: bold;line-height: 44px; color: white;}
-nav	.gnav{width: 1000px; z-index: 9999; height: 50px; display: flex; justify-content: space-between; align-items: center; position: fixed; top: 0; line-height: 50px;}
-nav .gnav div{display: flex;}
+nav	.gnav{width: 1000px; z-index: 9999; height: 50px; background: black; display: flex; justify-content: space-between; align-items: center; position: fixed; top: 0; line-height: 50px;}
+nav 	.gnav div{display: flex;}
 nav	.gnav div a{color: white; text-decoration: none; text-align: center; padding: 0 10px;}
 nav	.gnav div a:hover{background: linear-gradient(#06afe7, 85%, black); color: black;}
-nav	.mnav{background: white;padding: 2rem 0 1rem 30%;opacity: 0.7;backdrop-filter: blur(10px);display: none;}
-nav .mnav a{line-height: 2.3;}
+nav	.mnav{width:100vw; z-index: 9999; height 50px; background: black; position: fixed; top: 0; left:0; line-height: 50px; display: none; line-height:30px;padding-left:5px;}
+nav	.mnav #myLinks{display: none;}
+nav	.mnav a{color: white; text-decoration: none; display: block; padding: 10px 10px;}
+.icon{display: block; position: absolute; right:10px; top:1.5px; line-height:2.5;}
 
 /* 썸네일페이지용 */
 main .gtrack {background:black; display:flex; justify-content: space-between; font-size: 14px; line-height: 44px; padding: 0; position: sticky; top: 44px; z-index: 9999;}
@@ -206,7 +208,7 @@ footer div{margin-right: 40px;}
 	main,nav,section,article {width: 95%;}
 
 	nav .gnav{display: none;}
-	nav .mnav{}
+	nav .mnav{display: block;}
 
 	header{height:30vh;}
 	main .thumb{width: 100%}
@@ -215,7 +217,9 @@ footer div{margin-right: 40px;}
 	article .work-text .title{width: inherit;}
 	article .work-text .content{width: inherit;margin-top: 2rem;}
 	article .memberlink li{width: 47.5%}
-
+	
+	footer{width:95vw; display: block; margin:100px 0px 50px 10px; }
+	footer div{margin: 20px 0px 0px 10px;}
 }
 
 
