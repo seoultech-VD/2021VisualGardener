@@ -88,7 +88,9 @@ article .email.{color: #ddd font-size: 15pt;}
 	.flexbox{display: flex;}
 
 /* Footer */
-footer{margin-top: 100px; height: 300px}
+footer{ margin-top: 300px; font-size: 8pt; text-decoration: none; color: #BDBDBD; margin-bottom: 50px; display: flex;}
+footer .color{ color: #06afe7;}
+footer div{margin-right: 40px;}
 
 /* 모바일용 미디어쿼리 */
 @media only screen and (max-width: 767px){
