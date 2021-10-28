@@ -19,14 +19,27 @@
 	<header>
 		<div class="backdrop"></div>
 		<nav>
-		<ul class="gnav">
-			<a href="index.html" class="logo">VISUAL GARDENER</a>
-			<div>
-				<li><a href="service.html">project</a></li>
-				<li><a href="gardener.html">gardener</a></li>
+			<ul class="gnav">
+				<a href="../../index.html" class="logo">VISUAL GARDENER</a>
+				<div>
+					<li><a href="../../service.html">project</a></li>
+					<li><a href="../../gardener.html">gardener</a></li>
+				</div>
+			</ul>
+			<div class="mnav">
+				<a href="../../index.html" class="logo">VISUAL GARDENER</a>
+				<div id="myLinks">
+					<a href="../../service.html">광고/서비스디자인</a>
+					<a href="../../identity.html">아이덴티티디자인</a>
+					<a href="../../motion.html">영상디자인</a>
+					<a href="../../ux.html">UX디자인</a>
+					<a href="../../illustration.html">일러스트레이션</a>
+					<a href="../../editorial.html">편집디자인</a>
+					<a href="../../gardener.html">gardener</a>
+				</div>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
 			</div>
-		</ul>
-	</nav>
+		</nav>
 	</header>
 	<main>
 		<section class="track">
@@ -131,16 +144,26 @@
 
 	<footer>
 		<div class="gfooter">
+			<a href="https://www.instagram.com/snad_vd/" class="color">@snad_vd</a>
+		</div>
+		<div class="gfooter">
 			<p>서울과학기술대학교 시각디자인전공 졸업전시 웹 아카이빙</p>
 			<p>seoultech visual design graduation exhibition archive</p>
 			<p>© 2021 SEOULTECH Visual Design Graduation Exhibition</p>
-		</div>
-		<div class="gfooter">
-			<a href="https://www.instagram.com/snad_vd/" class="color">@snad_vd</a>
 		</div>
 		<div>
 			<p>서울과학기술대학교 조형대학 시각디자인학과</p>
 			<p>서울 노원구 공릉로 232 서울과학기술대학교 39동 다빈치관 6층 시각디자인전공</p>
 		</div>
 	</footer>
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("myLinks");
+		  if (x.style.display === "block") {
+		    x.style.display = "none";
+		  } else {
+		    x.style.display = "block";
+		  }
+		}
+	</script>
 </body>
