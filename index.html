@@ -58,14 +58,27 @@
 	<header>
 		<div class="backdrop"></div>
 		<nav>
-		<ul class="gnav">
-			<a href="main.html" class="logo">VISUAL GARDENER</a>
-			<div>
-				<li><a href="service.html">project</a></li>
-				<li><a href="gardener.html">gardener</a></li>
+			<ul class="gnav">
+				<a href="../../index.html" class="logo">VISUAL GARDENER</a>
+				<div>
+					<li><a href="../../service.html">project</a></li>
+					<li><a href="../../gardener.html">gardener</a></li>
+				</div>
+			</ul>
+			<div class="mnav">
+				<a href="../../index.html" class="logo">VISUAL GARDENER</a>
+				<div id="myLinks">
+					<a href="../../service.html">광고/서비스디자인</a>
+					<a href="../../identity.html">아이덴티티디자인</a>
+					<a href="../../motion.html">영상디자인</a>
+					<a href="../../ux.html">UX디자인</a>
+					<a href="../../illustration.html">일러스트레이션</a>
+					<a href="../../editorial.html">편집디자인</a>
+					<a href="../../gardener.html">gardener</a>
+				</div>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
 			</div>
-		</ul>
-	</nav>
+		</nav>
 	</header>
 	<section><img  src="./main/bigtitle.png" class="vg"></section>
 
@@ -187,7 +200,14 @@
 			setTimeout(function(){ t.classList.add(aclass); t.style.animationPlayState = "paused"; },100);
 		}
 		
-
+		function myFunction() {
+		  var x = document.getElementById("myLinks");
+		  if (x.style.display === "block") {
+		    x.style.display = "none";
+		  } else {
+		    x.style.display = "block";
+		  }
+		}
 	</script>
 </body>
 </html>
