@@ -87,7 +87,7 @@ footer div{margin-right: 40px;}
 	main .track{display:none;}
 	
 	main .gtrack{display:none;}
-	main .mtrack{display: block; color: #06afe7;font-size: 16px ;position: sticky; top: 50px; z-index: 9997; margin-top: 44px; background: black; line-height: 44px}
+	main .mtrack{display: block; color: #06afe7;font-size: 14px ;position: sticky; top: 50px; z-index: 9997; margin-top: 44px; background: black; line-height: 44px}
 	main .thumbList{margin-top: 10px;}
 
 	article .work-text{display: block;}
