@@ -84,7 +84,8 @@ article .email.{color: #ddd font-size: 15pt;}
 	.type{width: 560px; margin-top: 30px;}
 	.thumb{float: right; width: 440px; display: flex; margin-top: 35px;}
 	.thumb img{margin-left: 20px; width: 200px; height: 200px;}
-	.flexbox{display: flex;}
+	.flexbox{display: flex;}	
+	.menu .wor{display: none;}
 
 /* Footer */
 footer{ margin-top: 300px; font-size: 8pt; text-decoration: none; color: #BDBDBD; margin-bottom: 50px; display: flex;}
