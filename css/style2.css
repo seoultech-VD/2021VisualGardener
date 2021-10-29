@@ -42,7 +42,10 @@ main .thumb img{width: 100%}
 main .thumb .border{border: 1px solid #DDD; box-sizing: border-box;}
 main figure:hover figcaption{opacity:0.95; transform: translate(0px, 0px);}
 main figure:hover img{-webkit-filter:brightness(35%); -moz-filter:brightness(35%); -o-filter:brightness(35%); -ms-filter:brightness(35%); filter:brightness(35%); transition: all .5s cubic-bezier(0.4, 0.01, 0.165, 0.99);}
-main .mtrack{display: none; padding-left: 5px}
+main .mtrack{display: none;}
+main .mdropbox{height: 46px; background: black; opacity: 1;
+				position: absolute; width: 100vw; top: 60px;
+				backdrop-filter: blur(10px); display: none}
 
 
 	#toTop {font-family:'roboto'; font-weight:700; display: none; position: fixed; bottom: 50px; right: 50px; z-index: 1; border: none; outline: none; background-color: #222; color: white; cursor: pointer; width:63px; height:60px; border-radius: 50%; box-shadow: 0px 0px 5px #bbb;}
@@ -65,6 +68,11 @@ footer .color{ color: #06afe7;}
 footer div{margin-right: 40px;}
 
 /* 모바일용 미디어쿼리 */
+@media only screen and (max-width: 1300px){
+	main .track img{width: 1000px; left: 0; top: -330px;}
+	main .gtrack {margin-top: 400px}
+}
+
 @media only screen and (max-width: 767px){
 	html{letter-spacing: -0.3px;}
 	main,nav,section,article {width: 95%;}
@@ -74,12 +82,13 @@ footer div{margin-right: 40px;}
 
 	header{height:30vh;}
 	main .thumb{width: 100%}
-	header .backdrop{height: 100px;}
+	header .backdrop{height: 50px;}
 	
 	main .track{display:none;}
+	
 	main .gtrack{display:none;}
-	main .mtrack{display: block; color: #06afe7;font-size: 14px ;position: sticky; top: 50px; z-index: 9999; margin-bottom: 100px;}
-
+	main .mtrack{display: block; color: #06afe7;font-size: 14px ;position: sticky; top: 50px; z-index: 9997; margin-top: 44px; background: black; line-height: 44px}
+	main .thumbList{margin-top: 10px;}
 
 	article .work-text{display: block;}
 	article .work-text .title{width: inherit;}
