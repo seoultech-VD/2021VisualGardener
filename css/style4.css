@@ -100,7 +100,8 @@ footer div{margin-right: 40px;}
 	nav .mnav{display: block;}
 
 	header{height:30vh;}
-	main .thumb{width: 100%}
+	.student .thumb{margin-top: 10px; width:100%}
+	.type{width:100%}
 
 	article .work-text{display: block; width: 95vw;}
 	article .work-text .title{width: 95vw;}
