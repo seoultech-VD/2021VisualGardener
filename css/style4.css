@@ -100,8 +100,8 @@ footer div{margin-right: 40px;}
 	nav .mnav{display: block;}
 
 	header{height:30vh;}
-	.student .thumb{margin-top: 10px; width:100% display:block;}
-	.type{width:100%}
+	.student .thumb{margin-top:10px; width:100%; display:block;}
+	.type{width:100%;}
 	.container{display:block;}
 
 	footer{width:95vw; display: block; margin:100px 0px 50px 10px; }
