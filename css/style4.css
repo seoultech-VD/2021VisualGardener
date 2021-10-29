@@ -100,14 +100,9 @@ footer div{margin-right: 40px;}
 	nav .mnav{display: block;}
 
 	header{height:30vh;}
-	.student .thumb{margin-top: 10px; width:100%}
+	.student .thumb{margin-top: 10px; width:100% display:block;}
 	.type{width:100%}
-
-	article .work-text{display: block; width: 95vw;}
-	article .work-text .title{width: 95vw;}
-	article .work-text .content{width: inherit;margin-top: 2rem;}
-	article .memberlink li{width: 47.5%}
-	.work-text .text{margin-top: 20px; width: 95vw;}
+	.container{display:block;}
 
 	footer{width:95vw; display: block; margin:100px 0px 50px 10px; }
 	footer div{margin: 20px 0px 0px 10px;}
