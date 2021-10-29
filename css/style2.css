@@ -22,7 +22,7 @@ nav	.gnav{width: 1000px; z-index: 9999; height: 50px; background: black; display
 nav 	.gnav div{display: flex;}
 nav	.gnav div a{color: white; text-decoration: none; text-align: center; padding: 0 10px;}
 nav	.gnav div a:hover{background: linear-gradient(#06afe7, 85%, black); color: black;}
-nav	.mnav{width:100vw; z-index: 9999; height 50px; background: black; position: fixed; top: 0; left:0; line-height: 50px; display: none; line-height:30px;padding-left:5px;}
+nav	.mnav{width:100vw; z-index: 9999; height 50px; background: black; position: fixed; top: 0; left:0; line-height: 50px; display: none; line-height:30px;padding-left:0px;}
 nav	.mnav #myLinks{display: none;}
 nav	.mnav a{color: white; text-decoration: none; display: block; padding: 10px 10px;}
 .icon{display: block; position: absolute; right:10px; top:1.5px; line-height:2.5;}
@@ -42,7 +42,7 @@ main .thumb img{width: 100%}
 main .thumb .border{border: 1px solid #DDD; box-sizing: border-box;}
 main figure:hover figcaption{opacity:0.95; transform: translate(0px, 0px);}
 main figure:hover img{-webkit-filter:brightness(35%); -moz-filter:brightness(35%); -o-filter:brightness(35%); -ms-filter:brightness(35%); filter:brightness(35%); transition: all .5s cubic-bezier(0.4, 0.01, 0.165, 0.99);}
-main .mtrack{display: none; padding-left:5px}
+main .mtrack{display: none;}
 main .mdropbox{height: 46px; background: black; opacity: 1;
 				position: absolute; width: 100vw; top: 60px;
 				backdrop-filter: blur(10px); display: none}
@@ -80,14 +80,14 @@ footer div{margin-right: 40px;}
 	nav .gnav{display: none;}
 	nav .mnav{display: block; }
 
-	header{height:30vh;}
+	header{height:10vh;}
 	main .thumb{width: 100%}
 	header .backdrop{height: 50px;}
 	
 	main .track{display:none;}
 	
 	main .gtrack{display:none;}
-	main .mtrack{display: block; color: #06afe7;font-size: 14px ;position: sticky; top: 50px; z-index: 9997; margin-top: 44px; background: black; line-height: 44px}
+	main .mtrack{display: block; color: #06afe7;font-size: 16px ;position: sticky; top: 50px; z-index: 9997; margin-top: 44px; background: black; line-height: 44px}
 	main .thumbList{margin-top: 10px;}
 
 	article .work-text{display: block;}
