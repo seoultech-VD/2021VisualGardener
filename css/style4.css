@@ -101,6 +101,7 @@ footer div{margin-right: 40px;}
 
 	header{height:30vh;}
 	.thumb{margin-top:10px; float:none; width:100%; display:block;}
+	.thumb img{margin-left: 0px; width: 354px; height: 354px;}
 	.type{width:100%;}
 	.container{display:block;}
 	.menu .wor{display: none;}
