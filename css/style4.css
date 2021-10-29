@@ -13,7 +13,7 @@ header .backdrop{height: 46px; background: black; opacity: 1;
 
 
 /*데스크탑 전체폭설정*/
-main,nav,section,article {width: 1000px; margin: auto; position: relative;}
+main,nav,section,article,footer {width: 1000px; margin: auto; position: relative;}
 
 /*메뉴*/
 nav	.logo{font-size: 1rem;font-weight: bold;line-height: 44px; color: white;}
