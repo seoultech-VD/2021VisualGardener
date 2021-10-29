@@ -75,7 +75,7 @@ footer div{margin-right: 40px;}
 	header{height:30vh;}
 	main .thumb{width: 100%}
 	
-	main.gtrack{display:none;}
+	main .gtrack{display:none;}
 
 	article .work-text{display: block;}
 	article .work-text .title{width: inherit;}
