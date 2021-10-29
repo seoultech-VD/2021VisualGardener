@@ -42,7 +42,7 @@ main .thumb img{width: 100%}
 main .thumb .border{border: 1px solid #DDD; box-sizing: border-box;}
 main figure:hover figcaption{opacity:0.95; transform: translate(0px, 0px);}
 main figure:hover img{-webkit-filter:brightness(35%); -moz-filter:brightness(35%); -o-filter:brightness(35%); -ms-filter:brightness(35%); filter:brightness(35%); transition: all .5s cubic-bezier(0.4, 0.01, 0.165, 0.99);}
-main .mtrack{display: none;}
+main .mtrack{display: none; padding-left:5px}
 main .mdropbox{height: 46px; background: black; opacity: 1;
 				position: absolute; width: 100vw; top: 60px;
 				backdrop-filter: blur(10px); display: none}
