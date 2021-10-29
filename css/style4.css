@@ -72,7 +72,7 @@ article .email.{color: #ddd font-size: 15pt;}
 	a{text-decoration: none; color: #a8a8a8;}
 	.menu {background:black; color: #fff; font-weight: 400; list-style: none; width: 100%; color: #fff; margin-top: 230px;
 			display:flex; justify-content: space-between; font-size: 16px; line-height: 44px; padding: 0; top: 230px; z-index: 9999;}
-	.name{color:  #fff;	font-size: 12pt; margin-top: 0; margin-bottom: 137px;font-weight: 500;}
+	.name{color:  #fff;	font-size: 12pt; margin-top: 0; margin-bottom: 10px;font-weight: 500;}
 	.ppage{color: #a8a8a8; font-weight: 400;
 			font-size: 10pt; margin-bottom: 5px;}
 	.email{color: #ddd; font-weight: 600;
