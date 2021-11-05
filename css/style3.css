@@ -153,7 +153,7 @@ transform: rotate(40deg);}
 .gvideo{display: block;}
 .mvideo{display: none;}
 
-.gabout{margin : 100px; margin-bottom:150px;
+.gabout{margin : 93px; margin-bottom:150px;
 		z-index: -4; position: relative;
 		text-align: justify; font-size: 15pt; line-height: 26pt; font-weight: 500; 
 		color: white; word-break : break-all;}
