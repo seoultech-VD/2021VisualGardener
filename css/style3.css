@@ -142,12 +142,12 @@ transform: rotate(40deg);}
 
 .gtitle{
 			
-		z-index: -4;display: block; margin-top:200px; margin-left: 50px; position: relative;
+		z-index: -4;display: block; padding-top:200px; padding-left: 20px; margin: auto; position: relative;
 		 font-size: 16pt; line-height: 24pt; font-weight: 600; text-align: left;
 		color: #55C6FF;}
 .mtitle{display: none;}
 
-.glogo{margin: 50px; margin-bottom: 100px; width: 100vh;}
+.glogo{margin: auto; margin-bottom: 100px; padding-left: 20px; width: 100vh;}
 .mlogo{display: none;}
 
 .gvideo{display: block;}
@@ -156,7 +156,7 @@ transform: rotate(40deg);}
 .gabout{margin : 100px; margin-bottom:150px;
 		z-index: -4; position: relative;
 		text-align: justify; font-size: 15pt; line-height: 26pt; font-weight: 500; 
-		color: white;}
+		color: white; word-break : break-all;}
 .mabout{display: none;}
 
 
