@@ -32,10 +32,11 @@ article{ margin-top:100px; position: relative; color: white;}
 .work-text{ display: flex; gap: 5%; margin-top: 50px; margin-bottom: 140px; padding: 0;}
 .work-text .title{ width: 30%; font-size: 30pt; line-height: 34pt; font-weight: 500; margin: 0;}
 .work-text .text{ width: 60%; font-size: 12pt; line-height: 1.7; font-weight: 400; word-break: keep-all; margin: 0;}
-article iframe{ width: 100%; margin: 0; padding: 0; line-height: 0; display:block;}
 article .memberlink{display: flex; gap: 5vh 5%;flex-wrap: wrap;}
 article .memberlink li{width: 21.25%}
 article p::selection{color: #06afe7;}
+.video-container{position: relative; padding-bottom:56.25%; height:0; overflow: hidden;}
+.video-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
 
 /* Footer */
 footer{ margin-top: 300px; font-size: 8pt; text-decoration: none; color: #BDBDBD; margin-bottom: 50px; display: flex;}
