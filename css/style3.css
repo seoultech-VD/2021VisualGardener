@@ -247,7 +247,7 @@ transform: rotate(40deg);}
 	.glname{
 		margin-top:100px; margin-bottom:50px; word-spacing: normal;
 		z-index: -4;display: block; position: relative;
-		text-align: center; font-size: 14pt; line-height: 30pt; font-weight: 500; 
+		text-align: left; font-size: 14pt; line-height: 30pt; font-weight: 500; 
 		color: white;}
 .mrow{display: none;}
 .mltitle{display: none;}
