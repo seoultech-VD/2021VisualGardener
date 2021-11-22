@@ -227,7 +227,7 @@ transform: rotate(40deg);}
 .gvideo{display: block; }
 .mvideo{display: none;}
 
-.gabout{margin : 93px; margin-bottom:150px; word-spacing: normal;
+.gabout{margin : 77px; margin-bottom:150px; word-spacing: normal;
 		z-index: -4; position: relative;
 		text-align: center; font-size: 15pt; line-height: 28pt; font-weight: 400; 
 		color: white; }
