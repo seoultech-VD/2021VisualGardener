@@ -76,12 +76,12 @@ article .email.{color: #ddd font-size: 15pt;}
 	.ppage{color: #a8a8a8; font-weight: 400;
 			font-size: 10pt; margin-top: 10px; margin-bottom: 3px;}
 	.email{color: #a8a8a8; font-weight: 400;
-			font-size: 10pt; margin-top: 0;}
+			font-size: 10pt; margin-top: 0; margin-bottom:0px;}
 	.pro{width: 590px; font-size: 16px; margin-bottom: 3px;}
 	.wor{width: 410px; font-size: 16.5px; margin-bottom: 3px;}
 	.container{color: #fff; border-top: solid 2px; height:auto; display:flex;}
 	.student{margin-top: 35px; margin-bottom: 35px; margin-left: 0; margin-right: 0; height: 200px;}
-	.type{width: 580px; margin-top: 25px;}
+	.type{width: 580px; margin-top: 25px; margin-bottom: 25px;}
 	.thumb{float: right; width: 420px; display:flex; justify-content: space-between; margin-top: 30px; margin-bottom: 30px;}
 	.thumb img{margin-left: 10px; width: 200px;}
 	.flexbox{display: flex;}
@@ -104,6 +104,7 @@ footer div{margin-right: 40px;}
 	.thumb{margin-top:10px; float: none; width:95vw; display:flex; justify-content: space-between; margin-bottom: 25px;}
 	.thumb img{margin-left: 0px; width:47vw;}
 	.type{width:100%;}
+	.email{margin-bottom: 0px;}
 	.container{display:block; height:auto;}
 	.menu .wor{display: none;}
 	.flexbox{display:block;}
